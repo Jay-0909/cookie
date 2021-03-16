@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "d": "parcel ./F2E.html"
+    "d": "parcel ./F2E.html",
+    "build":"parcel build ./F2E.html"
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
   }
 }
