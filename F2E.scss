@@ -1,0 +1,44 @@
+$blue:#4a90e2;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E1E1E1;
+    .header {
+        background-color: $blue;
+        width: 100%;
+        height: 15%;
+    }
+}
+
+.header ul {
+    display: flex;
+}
+.header ul li {
+    padding: 15px 50px;
+    list-style: none;
+}
+.container {
+    width: 620px;
+    height: 519px;
+    margin: auto;
+}
+.box-body-text {
+    background-color: aquas;
+}
+.box {
+    background-color: #fff2dc;
+}
+.box-body {
+    background-color: #c8c8c8;
+}
+.card {
+    margin-top: 2%;
+    margin: auto;
+    width: 620px;
+    height: 102px;
+    background-color: #fff2dc;
+}
+.cad.h3{
+    display: inline-block;
+}
