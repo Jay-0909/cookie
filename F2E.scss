@@ -37,6 +37,7 @@ body {
         font-size: 24px;
         a {
             text-decoration: none;
+            
         }
     }
 }
@@ -46,22 +47,26 @@ body {
     margin: auto;
     .box {
         // margin: auto;
-        background-color: #f2f2f2;
+        background-color: #fff2dc;
         height: 76px;
         border-radius: 5px 5px 0 0;
         font-size: 24px;
         input {
-            margin: 24px 16px 28px 32px;
+            margin-left: 3.1%;
+            margin-top: 2%;
+            margin-right: 1.6%;
             width: 24px;
             height: 24px;
         }
-        button {
-            float: right;
-            background-color: #f2f2f2;
-            padding: 24px;
-            font-size: 24px;
-            border-style: none;
+        label{
+            margin-right: 30%;
         }
+        button {
+            margin-right: 3.1%;
+            font-size: 24px;
+            background-color: #FFF2DC;
+            border-style: none;
+      }
     }
 }
 
@@ -73,7 +78,7 @@ body {
     height: 100%;
     font-size: 20px;
     .box-body-group {
-        padding: 2% 0 ;
+        padding: 2% 0;
     }
     input {
         width: 162px;
@@ -82,13 +87,18 @@ body {
     .box-body-group-input {
         margin-top: 8px;
         margin-left: 2.5%;
-        .plus{
-            color: #c8c8c8;
-            border-radius: 2px;
-        }
-        i{
-            font-size: 32px;
+        color: #c8c8c8;
 
+        textarea {
+            resize: none;
+            width: 445px;
+            height: 120px;
+            border: none;
+            padding: 0.7% 1.6%;
+            font-size: 16px;
+        }
+        i {
+            font-size: 32px;
         }
         input {
             border: none;
@@ -107,16 +117,46 @@ body {
         margin-bottom: 24px;
         font-size: 24px;
     }
+    .Add {
+        color: #ffffff;
+        background-color: #4a90e2;
+    }
+    .Cancel {
+        color: #d0021b;
+        
+    }
 }
 .card {
     margin-bottom: 8px;
     // width: 620px;
     height: 102px;
     background-color: #fff2dc;
-    h3 {
-        display: inline-block;
+    input {
+        width: 24px;
+        height: 24px;
+        margin-left: 3.1%;
+        margin-top: 2%;
+        margin-right: 1.6%;
+        border-radius: 2px;
     }
+    label {
+        display: inline-block;
+        margin-right: 30%;
+        font-size: 24px;
+    }
+    button {
+        margin-right: 3.1%;
+        font-size: 24px;
+        background-color: #FFF2DC;
+        border-style: none;
+    }
+    div {
+        padding-left: 7%;
+        padding-top: 1.2%;
+        i {
+            margin-right: 1.6%;
+        }
+    }
+    
 }
-.font700 {
-    font-weight: 700;
-}
+
