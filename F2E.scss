@@ -19,7 +19,7 @@ body {
         margin-bottom: 22px;
         .header_box {
             margin: auto;
-            width: 620px;
+            max-width: 620px;
             height: 100%;
         }
     }
@@ -37,13 +37,12 @@ body {
         font-size: 24px;
         a {
             text-decoration: none;
-            
         }
     }
 }
 
 .container {
-    width: 620px;
+    // width: 620px;
     margin: auto;
     .box {
         // margin: auto;
@@ -58,15 +57,14 @@ body {
             width: 24px;
             height: 24px;
         }
-        label{
-            margin-right: 30%;
-        }
         button {
+            float: right;
+            margin-top: 2%;
             margin-right: 3.1%;
             font-size: 24px;
-            background-color: #FFF2DC;
+            background-color: #fff2dc;
             border-style: none;
-      }
+        }
     }
 }
 
@@ -123,7 +121,6 @@ body {
     }
     .Cancel {
         color: #d0021b;
-        
     }
 }
 .card {
@@ -141,13 +138,15 @@ body {
     }
     label {
         display: inline-block;
-        margin-right: 30%;
+        // margin-right: 30%;
         font-size: 24px;
     }
     button {
+        float: right;
+        margin-top: 2%;
         margin-right: 3.1%;
         font-size: 24px;
-        background-color: #FFF2DC;
+        background-color: #fff2dc;
         border-style: none;
     }
     div {
@@ -157,6 +156,55 @@ body {
             margin-right: 1.6%;
         }
     }
-    
 }
 
+.card2 {
+    background-color: #fff2dc;
+    padding:10px;
+    .card2__top {
+        display: flex;
+        height: 45px;
+        .card2__checkbox {
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            input[type="checkbox"] {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .card2__textContainer {
+            flex: 1 1 340px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            label {
+                cursor: pointer;
+                user-select: none;
+                font-size: 24px;
+                font-weight: normal;
+                margin: 0;
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        .card2__tool {
+            display: flex;
+            width: 100px;
+            align-items: center;
+            justify-content: center;
+            i {
+                font-size: 24px;
+                cursor: pointer;
+                &:first-child {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .card2__down {
+    }
+}
