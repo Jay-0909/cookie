@@ -1,15 +1,20 @@
 {
   "scripts": {
-    "d": "parcel ./F2E.html",
-    "build": "parcel build ./F2E.html"
+    "d": "parcel ./index.html",
+    "build": "parcel build ./index.html"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel-preset-env": "^1.7.0",
     "sass": "^1.32.8"
   }
 }
